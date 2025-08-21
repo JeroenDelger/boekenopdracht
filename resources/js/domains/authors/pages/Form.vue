@@ -1,8 +1,9 @@
+<!-- TODO: zet dit component in aparte components sub map -->
 <template>
     <ErrorMessage />
     <form @submit.prevent="handleSubmit">
         <label>Schermnaam:</label>
-        <input v-model="form.name" type="text" required />
+        <input v-model="form.name" type="text" />
         <label>Voornaam:</label>
         <input v-model="form.first" type="text" required />
         <label>Achternaam:</label>

@@ -9,3 +9,5 @@ import { getErrorByProperty } from './services/error';
 
 defineProps<{ name: string }>();
 </script>
+
+<!-- TODO: dit bestand zou ik in de services/error map verwachten -->
