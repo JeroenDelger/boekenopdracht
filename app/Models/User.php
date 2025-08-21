@@ -1,5 +1,7 @@
 <?php
 
+// TODO: User en Author zijn beiden users, User kan weg?
+
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;

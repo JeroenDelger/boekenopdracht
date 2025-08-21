@@ -28,7 +28,7 @@ Route::put('/reviews/{review}', [ReviewController::class, 'update']);
 
 
 
-
+// TODO: groepeer routes op basis van entiteit ipv http VERB
 Route::delete('/books/{book}', [BookController::class, 'destroy']);
 Route::delete('/authors/{author}', [AuthorController::class, 'destroy']);
 Route::delete('/reviews/{review}', [ReviewController::class, 'destroy']);

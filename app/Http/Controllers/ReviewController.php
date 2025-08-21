@@ -9,7 +9,7 @@ use App\Http\Requests\StoreReviewRequest;
 use App\Models\Book;
 
 class ReviewController extends Controller
-
+// TODO: opmaak kan nog beter, zoals whitelines verwijderen. Gebruik evt. een formatter om dit automatisch te laten doen
 
 {
     public function index(Book $book){

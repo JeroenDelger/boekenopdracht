@@ -10,6 +10,8 @@ class Author extends Model
     protected $fillable = ['name', //'book', 
     'first', 'last', 'email', 'password'];
 
+    // TODO: ongebruikte commentaren verwijderen
+
     // public function author() {
     //     return $this->belongsTo(Author::class);
     // }

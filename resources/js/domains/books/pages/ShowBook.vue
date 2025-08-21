@@ -12,6 +12,7 @@
                 <tr>
                     <td>{{ book.title }}</td>
                     <td>{{ book.summary }}</td>
+                    <!-- book.author.name geeft error bij laden pagina in console -->
                     <td>{{ book.author.name }}</td>
                 </tr>
             </tbody>
@@ -56,6 +57,7 @@ const book = bookStore.getters.getById(route.params.id);
 const deleteReview = (reviewId) => reviewStore.actions.delete(reviewId);
 const reviews = ref();
 
+// TODO: zou ook zonder onMounted moeten kunnen
 onMounted(async () => {
     await authorStore.actions.getAll();
     await reviewStore.actions.getReviewsByBookId(route.params.id);
